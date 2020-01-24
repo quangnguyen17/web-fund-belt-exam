@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(23, 38, 54);
+}
+
+.bg-color {
+    background-color: rgb(23, 38, 54);
+}
+
+.bg-light-blue {
+    background: #276ee3;
+}
+
+.text-blue {
+    color: rgb(91, 155, 235);
+}
+
+.bg-light-blue-2 {
+    background-color: rgb(223, 236, 254);
+}
+
+#main {
+    width: 100%;
+    display: block;
+}
+
+.bg-icon {
+    background-color: white;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    border-radius: 23px;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(-1%, -50%);
+}
+
+h2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-gradient {
+    background: linear-gradient(rgb(127, 182, 238), rgb(83, 141, 213), rgb(86, 146, 220));
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    border-top: 25px solid rgb(223, 236, 254);
+}
+
+.black-border {
+    border-top: 1px solid black;
+}
+
+.disabled {
+    color: #87a8de;
+}
